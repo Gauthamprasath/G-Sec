@@ -1,4 +1,5 @@
 # G-Sec
 Front End with mobile view
 .....................................................
-Sample front to test the mobile view, and paddings.
+.....................................................
+Sample front end, to test the mobile view, and paddings.
