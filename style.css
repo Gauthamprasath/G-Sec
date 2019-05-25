@@ -1,0 +1,396 @@
+/*############### Defaults ################*/
+
+nav,
+header,
+footer {
+    display: block;
+}
+
+body {
+    margin: 0;
+    line-height: 1.5;
+    background-color: #f7f9f9;
+
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.row::after{
+    display: table;
+    content: none;
+    clear: both;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100 ;}
+
+*{
+    box-sizing: border-box;
+}
+
+/*################# Nav Bar ################*/
+
+nav {
+    margin: 0;
+    width: 100%;
+    position: fixed;
+}
+
+nav ul {
+    overflow: hidden;
+    background-color: #ecf0f1;
+    margin: 0;
+    padding: 0;
+}
+
+ul.topnav li {
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li.topnav-right {
+    float: right;
+}
+
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    color: #1c2833;
+}
+
+ul.topnav li a:hover {
+    background-color:  #2874a6 ;
+    color: azure;
+    border-radius: 1px;
+
+}
+
+ul.topnav li.dropdownIcon {
+    display: none;
+}
+
+/*############## Custom ################*/
+
+#section-1-gradient{
+    background:  #2874a6 ;
+    background: -webkit-linear-gradient( #2874a6  , #f7f9f9);
+    background: -moz-linear-gradient( #2874a6  , #f7f9f9);
+    background: -o-linear-gradient( #2874a6  , #f7f9f9);
+    background: linear-gradient( #2874a6  , #f7f9f9);
+    
+}
+
+div.box{
+    background-color: #fff;
+    margin: 24px;
+    box-shadow: 0px 0px 8px 1.5px rgba(0,0,0,0.3), 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 36px 24px 46px 24px;
+    border-radius: 25px;
+}
+
+.box-icon{
+    width: 100%;
+}
+
+.box-label{
+    color: #1c2833 ;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.box-txt{
+    color: #1c2833 ;
+    letter-spacing: 2px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify
+}
+
+div.left-col{
+    margin-left: 20%;
+}
+
+div.video{
+    margin-right: 20%;
+}
+
+h1.large{
+    color:  #1c2833 ;
+    font-size: 56px;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 3px;
+}
+
+h1.small{
+    color:  #1c2833 ;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 8px;
+    margin-left: 100px;
+    margin-bottom: 80px;
+}
+
+h2.get{
+    color:  #1c2833 ;
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+input[type="text"]{
+    color: #1c2833 ;
+    letter-spacing: 3px;
+    font-weight: 600;
+    width: 300px;
+    min-width: 100px;
+    font-size: 20px;
+    padding: 7px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 7px;
+    background-color: ecf0f1;
+}
+
+input[type="password"]{
+    color: #1c2833 ;
+    letter-spacing: 5px;
+    font-weight: 600;
+    width: 300px;
+    min-width: 100px;
+    font-size: 20px;
+    padding: 7px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 7px;
+    background-color: ecf0f1;
+}
+
+.sign-bttn {
+    background-color:  #1c2833 ;
+    color: #ecf0f1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    padding: 7px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.sign-bttn:hover{
+    background-color: #2874a6;
+    color: #1c2833;
+}
+
+
+
+.header-sec{
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 56px;
+    color: #1c2833 ;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+article h1{
+    color: #1c2833 ;
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+article p{
+    color: #1c2833 ;
+    letter-spacing: 0.5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.sec2{
+    margin: 24px;
+}
+
+.h2img img{
+    display: block;
+    margin: auto;
+    box-shadow: 2px 2px 25px 2px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    width: 600px;
+}
+
+footer.footsy{
+    background-color:  #283747;
+    color:  #ecf0f1 ;
+    padding: 3%;
+}
+
+.footsy p{
+    font-size: 25px;
+    font-family: font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.footsy ul{
+    list-style: none;
+    text-align: left;
+    padding: 10px;
+}
+
+.footsy ul li {
+    font-family: font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    letter-spacing: 2px;
+    line-height: 2;
+    text-align: center;
+}
+
+.f-txt{
+			font-size: 15px;
+			font-style: italic,bold;
+			color: #d5d8dc;
+			letter-spacing: 3px;
+			text-align: center;
+			margin-top: 80px;
+		}
+
+
+/*############### Mobile View  ###############*/
+
+@media screen and (max-width: 700px) {
+
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+
+    ul.topnav li.dropdownIcon {
+        display: block;
+        float: right;
+    }
+
+    ul.topnav.responsive li.dropdownIcon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    ul.topnav.responsive {
+        position: relative;
+    }
+
+    ul.topnav.responsive li {
+        float: none;
+        display: inline;
+    }
+
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+
+    .col-6, .col-4, .col-7, .col-5{
+        margin: 0;
+        width: 100%;
+    }
+    
+    div.box{
+        padding: 15px;
+        display: block;
+    }
+    
+    h1.large{
+        text-align: center;
+        width: 100%;
+    }
+    
+    h2.get{
+        text-align: center;
+        width: 100%;
+    }
+    
+    
+    
+    div.left-col,div.video{
+        margin: 15px;
+    }
+    
+    .v-frame iframe{
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+    }
+    
+    input[type="text"]{
+        width: 350px;
+        width: 100%;
+    }
+    
+    input[type="password"]{
+        width: 350px;
+        width: 100%;
+    }
+    
+    .sign-bttn{
+        margin-left: 40%;
+    }
+    
+    .header-sec{
+        font-size: 30px;
+    }
+    
+    div.h2img{
+        margin: 24px;
+    }
+    
+    div.h2img img{
+        display: block;
+        width: 100%;
+        
+    }
+    
+    
+
+}

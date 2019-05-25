@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>G-sec</title>
+    <link rel="icon" href="Images/icon.png" type="icon"/>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Orbitron|Source+Sans+Pro" rel="stylesheet"></head>
+
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#News">News</a></li>
+        <li><a href="#Contact Us">Contact Us</a></li>
+        <li><a href="#About">About</a></li>
+        <li class="topnav-right"><a href="#Sign Up">Sign Up</a></li>
+        <li class="topnav-right"><a href="#Sign In">Sign In</a></li>
+        <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container" id="section-1-gradient">
+        <div class="row">
+            <div class="col-6">
+                <div class="left-col">
+                    <h1 class="large">G-Sec Industries</h1>
+                    <h1 class="small">Envy your security</h1>       
+                </div>
+                <form>
+                    <div class="left-col">
+                    <h2 class="get">Username</h2>
+                    <input class="inputbox" name="username" type="text" placeholder="Username">
+                    <br>
+                    <br>
+                    <h2 class="get">Password</h2>
+                    <input class="inputbox" name="password" type="password" placeholder="Password">
+                     <div>
+                        <button class="sign-bttn">Sign In</button>
+                    </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-6">
+                <div class="video">
+                    <div class="v-frame">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/C8-84MQY39c?start=9" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <h1 class="header-sec">Embrace Yoursef from EXPLOITS</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="Images/pic1.png">
+                        </div>
+                        <div class="box-label">
+                            <label>Get secured digitaly</label>
+                        </div>
+                        <div class="box-txt">
+                            <p>Surf anywhere, digitaly we ensure your data is protected, authenticated, and integrated. We provide end-to-end high level encryption and decryption. Your data your right. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="Images/pic2.png">
+                        </div>
+                        <div class="box-label">
+                            <label>You are the key</label>
+                        </div>
+                        <div class="box-txt">
+                            <p>No more frustations to remember the password. You are the key now. Ease it with Biometrics. Fingerprint, iris, and heartbeat, authentications will chill you out. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="Images/pic3.png">
+                        </div>
+                        <div class="box-label">
+                            <label>We have your back</label>
+                        </div>
+                        <div class="box-txt">
+                            <p>Your Datas lost? We securely backup your data to our cloud systems, you can restore them from anywhere. Anyway your authentication is required, to restore them.  </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-7">
+                    <article class="sec2">
+                        <h1>
+                            Customize Defences
+                        </h1>
+                        <p>
+                            Safeguarding a digital experience involves multiple techniques and layers of security.
+                        </p>
+                        <p>    
+                            We have identified ten different methods and technologies that you can employ to protect your content.
+                        </p>
+                    </article>
+                </div>
+                <div class="col-5">
+                    <div class="h2img">
+                        <img src="Images/h2img.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <footer class="footsy">
+        <div class="row">
+            <div class="col-4">
+                <p>Solutions</p>
+                <ul>
+                    <li>Why G-Sec</li>
+                    <li>Realtime Streaming</li>
+                    <li>Web Content Delivery</li>
+                    <li>File Distribution</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <p>Products</p>
+                <ul>
+                    <li>Edge Cloud</li>
+                    <li>Video Delivery</li>
+                    <li>Content Delivery</li>
+                    <li>Origin Storage</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <p>Contact</p>
+                <ul>
+                    <li>Offices</li>
+                    <li>Support</li>
+                    <li>E-mail Us</li>
+                    <li>+91 9500722566</li>
+                </ul>
+            </div>
+        </div>
+        <div class="f-txt">
+            Copyright@
+            <div style="color: #76d7c4">GAUTHAM</div> 
+            &nbsp web development solutions
+        </div>
+    </footer>
+    <script>
+        function dropdownMenu(){
+            var x = document.getElementById("dropdownClick");
+            if(x.className === "topnav"){
+                x.className += " responsive";
+            }
+            else{
+                x.className = "topnav";
+            }
+        }
+    </script>  
+</body>
+</html>
